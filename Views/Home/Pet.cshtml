@@ -1,0 +1,273 @@
+﻿
+@{
+    ViewBag.Title = "Pet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url(@Url.Content("~/Content/images/bg_2.jpg"));" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-end">
+            <div class="col-md-9 ftco-animate pb-5">
+                <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Acasă <i class="ion-ios-arrow-forward"></i></a></span> <span>Animale <i class="ion-ios-arrow-forward"></i></span></p>
+                <h1 class="mb-0 bread">Cunoaște animalele noastre</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Tabs -->
+
+
+<div class="container text-center mt-5">
+    <h2><span class="blue-text">Adopția este o promisiune pe viață plină de dragoste și grijă. </span></h2>
+    <p>Deschide-ți inima și oferă unui animal fără adăpost un cămin pentru totdeauna.</p>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs justify-content-center mt-4" id="petTabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#dogs">Câini</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#cats">Pisici</a>
+        </li>
+    </ul>
+
+    <!-- Pet Cards -->
+    <div class="tab-content mt-4 ">
+
+        <div class="tab-pane fade show active" id="dogs">
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog1.jpg")" alt="Buddy" width="300" height="400">
+
+
+                        <div class="pet-info">
+                            <h5>Buddy</h5>
+                            <p class="details">Ciobănesc german • 2 ani • 35 kg</p>
+                            <p class="description">Buddy este un câine loial și jucăuș care se bucură de plimbările lungi în parc. Îi place să se joace de-a vânătoarea și să se relaxeze pe canapea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog2.jpg")" alt="Max" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Max</h5>
+                            <p class="details">Samoyed • 2 ani, o lună • 33 kg </p>
+                            <p class="description">Max este un câine energic care adoră să exploreze. Îi place să se joace în curte și este întotdeauna entuziasmat să cunoască oameni noi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog3.jpg")" alt="Bella" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Bella</h5>
+                            <p class="details">Cavalier King Charles Spaniel • 1 an • 5 kg</p>
+                            <p class="description">
+                                Bella este un câine prietenos și blând care iubește să fie în preajma oamenilor. Este minunată cu copiii și cu alți animale de companie.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog4.jpg")" alt="Rocky" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Rocky</h5>
+                            <p class="details">Vizla• 3 luni• 4 kg</p>
+                            <p class="description">Rocky este un câine calm și iubitor care se bucură de plimbări liniștite și de a se întinde pe canapea. Este foarte afectuos cu familia sa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog5.jpg")" alt="Charlie" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Charlie</h5>
+                            <p class="details">Golden Retriever • 4 luni  • 13 kg</p>
+                            <p class="description">
+                                Charlie este un câine jucăuș și curios care iubește să fie afară. Este minunat cu alte animale și se bucură să fie în preajma oamenilor.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog6.jpg")" alt="Sadie" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Sadie</h5>
+                            <p class="details">Cocker Spaniel • 3,5 luni • 4 kg</p>
+                            <p class="description">Sadie este un câine afectuos care iubește să se cuibărească. Este minunată cu copiii și cu alți câini și se bucură să se joace în aer liber..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog7.jpg")" alt="Cooper" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Cooper</h5>
+                            <p class="details">Labrador Retriever • 2 luni  • 6 kg</p>
+                            <p class="description">Cooper este un câine energic care iubește să se joace de-a vânătoarea și să alerge. Are nevoie de o familie activă care să poată ține pasul cu energia lui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog8.jpg")" alt="Lola" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Lola</h5>
+                            <p class="details">Yorkshire Terrier • 1.5 ani • 3.5 kg </p>
+                            <p class="description">Lola este un câine dulce și iubitor care se bucură să se întindă pe canapea și să se joace cu jucăriile ei. Este bună cu copiii și cu alte animale de companie.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/dog9.jpg")" alt="Dexter" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Dexter</h5>
+                            <p class="details">Border Collie • 2 ani • 24 kg</p>
+                            <p class="description">Dexter este un câine aventuros care iubește să meargă pe munte și să exploreze locuri noi. Este minunat cu oamenii și cu alți câini..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="cats">
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat1.jpg")" alt="Whiskers" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Whiskers</h5>
+                            <p class="details"> 2 ani • 4.2 kg</p>
+                            <p class="description">Whiskers este o pisică calmă și iubitoare care se bucură să se relaxeze în locuri însorite.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat2.jpg")" alt="Fluffy" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Fluffy</h5>
+                            <p class="details">  10 luni  • 3 kg</p>
+                            <p class="description">
+                                Fluffy este o pisicuță jucăușă și energică care adoră să alerge după jucării și să-și exploreze împrejurimile.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat3.jpg")" alt="Mittens" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Mittens</h5>
+                            <p class="details"> 1 an • 3.5 kg</p>
+                            <p class="description">Mittens este o pisică energică și curioasă care adoră să se joace interactiv.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat4.jpg")" alt="Cleo" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Cleo</h5>
+                            <p class="details"> 3 ani • 5 kg</p>
+                            <p class="description">Cleo este o pisică inteligentă și independentă căreia îi place să exploreze. Adoră să fie răsfățată cu gustări.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat5.jpg")" alt="Iasper" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Jasper</h5>
+                            <p class="details">  1 an • 3 kg</p>
+                            <p class="description">Jasper este o pisică afectuoasă care se bucură de un mediu liniștit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat6.jpg")" alt="Oscar" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Oscar</h5>
+                            <p class="details"> 4 luni • 1.5 kg </p>
+                            <p class="description">Oscar este o pisică relaxată căreia îi place să-și petreacă timpul liniștit lângă fereastră, uitându-se la păsări afară. Este foarte afectuos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pet-row">
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat7.jpg")" alt="Leo" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Leo</h5>
+                            <p class="details"> 2 luni • 1 kg </p>
+                            <p class="description">
+                                Leo este o pisică prietenoasă și sociabilă căreia îi place să-și petreacă timpul alături de oamenii săi. Este foarte blândă și îi place să fie mângâiată.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat8.jpg")" alt="Nala" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Nala</h5>
+                            <p class="details"> 1.5 ani • 4 kg </p>
+                            <p class="description">Nala este o pisică jucăușă căreia îi place să alerge și să sară. Se înțelege foarte bine cu alte animale de companie și adoră să se joace cu jucăriile ei.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pet-card">
+                        <img src="@Url.Content("~/Content/images/cat9.jpg")" alt="Toby" width="300" height="400">
+
+                        <div class="pet-info">
+                            <h5>Toby</h5>
+                            <p class="details"> 2 luni • 1 kg </p>
+                            <p class="description">Toby este o pisică aventuroasă căreia îi place să exploreze locuri noi. Se bucură atât de activități în interior, cât și în aer liber.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
